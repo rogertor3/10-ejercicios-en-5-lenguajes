@@ -8,7 +8,7 @@ Como su nombre indica, son un compendio de 10 ejercicios sencillos de programaci
 
 ## ¿Hay diferencias?
 
-Si bien los ejercicios se escriben diferente en practicamente todos los lenguajes todos cumplen un objetivo común, pero no lo hacen de la misma forma.
+Si bien los ejercicios se escriben diferente en practicamente todos los lenguajes. Todos cumplen un objetivo común, pero no lo hacen de la misma forma.
 Asi mismo no se utilizan de la misma manera. Algunos de ellos solo son funciones definidas listas para utilizar, otros son metodos especificos que no requieren ningún input por parte del usuario.
 
 ### Ejercicios:
