@@ -114,3 +114,16 @@ function generar_n_caracteres() {
   }
   return cadena;
 }
+
+// Definir un historigrama procedimiento() que tome una lista de numeros enteros e imprima un histograma en la pantalla
+
+function procedimiento() {
+  let lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  for (let i = 0; i < lista.length; i++) {
+    let linea = "";
+    for (let j = 0; j < lista[i]; j++) {
+      linea += "*";
+    }
+    console.log(linea);
+  }
+}
