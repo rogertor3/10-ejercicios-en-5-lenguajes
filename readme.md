@@ -100,3 +100,16 @@ Hace lo mismo que el ejemplo anterior pero lo hace el numero de veces especifica
 > ,,,,,,,,
 > ,,,,,,,,,
 > ,,,,,,,,,,
+
+---
+
+Se puede observar que python es el lenguaje donde menos lineas de codigo se necesitan para cumplir el mismo propocito.
+
+## Contribuciones.
+
+Cualquier contribucion es Bienvenida. Si hay que optimizar el codigo sientase libre de cambiar cualquier cosa.
+En el futuro se espera incrementar el numero de lenguajes, asi como el numero de Problemas.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
