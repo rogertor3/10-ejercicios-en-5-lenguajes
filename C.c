@@ -1,7 +1,7 @@
 // definir una funcion max()
 // que tome como argumentos dos numeros y devuelva el mayor de ellos
 
-include "stdio.h";
+#include <stdio.h>
 
 int max(int a, int b)
 {
