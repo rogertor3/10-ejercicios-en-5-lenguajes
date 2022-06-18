@@ -27,8 +27,8 @@ Es una funcion sencilla con el proposito de encontrar el numero mayor de tres nu
 
 Funcion para calcular la longitud de una cadena de caracteres.
 
-Ejemplo: Caracteres = Hola mundo
-La longitud de la cadena es: 10
+> Ejemplo: Caracteres = Hola mundo
+> La longitud de la cadena es: 10
 
 #### esVocal()
 
@@ -38,15 +38,15 @@ Toma un caracter y comprueba si es una vocal de un arreglo ya definido.
 
 Se suman todos los numeros de una lista
 
-Ejemplo: Lista = 12345
-Return = 15
+> Ejemplo: Lista = 12345
+> Return = 15
 
 #### mult()
 
 Se multiplican todos los numeros de una lista
 
-Ejemplo: Lista = 12345
-Return = 120
+> Ejemplo: Lista = 12345
+> Return = 120
 
 #### inversa()
 
@@ -66,37 +66,37 @@ Encuentra el palindromo de una cadena de caracteres (Un palindromo es una frase 
 
 Separa una cadena de caracteres segun un caracter especificado por el usuario
 
-Ejemplo = "Saludos,Separo,esto,con,commas"
-Return = [',', 'Saludos', 'Separo', 'esto', 'con', 'commas'] <!-- Se regresa un arreglo con cada uno de los caracteres separados. -->
+> Ejemplo = "Saludos,Separo,esto,con,commas"
+> Return = [',', 'Saludos', 'Separo', 'esto', 'con', 'commas'] <!-- Se regresa un arreglo con cada uno de los caracteres separados. -->
 
 #### generar_n_caracteres()
 
 Utilizando un valor entero y un caracter, Multiplica el caracter por el numero de veces especificado
 
-Ejemplo:
+> Ejemplo:
 
-Ingrese un entero: 4
-Ingrese un caracter: ,
+> Ingrese un entero: 4
+> Ingrese un caracter: ,
 
-Return = ,,,,
+> Return = ,,,,
 
 #### historigrama()
 
 Hace lo mismo que el ejemplo anterior pero lo hace el numero de veces especificado por una lista.
 
-Ejemplo:
-Lista = [1,2,3,4,5,6,7,8,9,10]
+> Ejemplo:
+> Lista = [1,2,3,4,5,6,7,8,9,10]
 
-caracter = -
+> caracter = -
 
-Return =
-,
-,,
-,,,
-,,,,
-,,,,,
-,,,,,,
-,,,,,,,
-,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,,
+> Return =
+> ,
+> ,,
+> ,,,
+> ,,,,
+> ,,,,,
+> ,,,,,,
+> ,,,,,,,
+> ,,,,,,,,
+> ,,,,,,,,,
+> ,,,,,,,,,,
