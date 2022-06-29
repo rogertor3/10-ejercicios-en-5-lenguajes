@@ -108,8 +108,6 @@ function generar_n_caracteres($n, $caracter)
 }
 
 # Definir un historigrama procedimiento() que tome una lista de numeros enteros e imprima un histograma en la pantalla
-// historigrama en php
-$lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function historigrama($lista)
 {
     $histograma = "";

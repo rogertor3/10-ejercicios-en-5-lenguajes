@@ -124,6 +124,6 @@ function procedimiento() {
     for (let j = 0; j < lista[i]; j++) {
       linea += "*";
     }
-    console.log(linea);
+    return linea;
   }
 }
