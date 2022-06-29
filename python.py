@@ -2,103 +2,88 @@
 # que tome como argumentos dos numeros y devuelva el mayor de ellos
 
 
-def max():
-    a = int(input("Ingrese un numero: "))
-    b = int(input("Ingrese otro numero: "))
+def max(a,b):
     if a > b:
-        print(a)
+        return a
     else:
-        print(b)
+        return b
 
 # definir una funcion max_de_tres()
 # que tome tres numeros y devuelva el mayor de ellos
 
 
-def max_de_tres():
-    a = int(input("Ingrese un numero: "))
-    b = int(input("Ingrese otro numero: "))
-    c = int(input("Ingrese otro numero: "))
+def max_de_tres(a,b,c):
     if a > b and a > c:
-        print(a)
+        return a
     elif b > a and b > c:
-        print(b)
+        return b
     else:
-        print(c)
+        return c
 
 # definir una funcion que calcule la longitud de una lista o un string
 
 
-def longitud():
-    a = input("Ingrese una palabra: ")
-    print(len(a))
+def longitud(a):
+    return len(a)
 
 # Escribir una funcion que tome un caracter y devuelva true si es una vocal, de lo contrario devuelva false
 
 
-def vocal():
-    a = input("Ingrese un caracter: ")
+def vocal(a):
     if a == "a" or a == "e" or a == "i" or a == "o" or a == "u":
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
 
 # Escribir una funcion sum() que sume todos los valores de una lista
 # Escribir una funcion Mult() que multiplique todos los valores de una lista
-lista = [1, 2, 3, 4, 5]
-
 
 def suma(lista):
     suma = 0
     for i in lista:
         suma = suma + i
-    print(suma)
+    return suma
 
 
 def mult(lista):
     mult = 1
     for i in lista:
         mult = mult * i
-    print(mult)
+    return mult
 
 # definir una funcion inversa() que calcule la inversion de una cadena de caracteres
 
 
-def inversa():
-    a = input("Ingrese una palabra: ")
-    print(a[::-1])
+def inversa(a):
+
+    return a[::-1]
 
 # definir una funcion que reconozca un palindromo de una cadena de caracteres
 
 
-def palindromo():
-    a = input("Ingrese una palabra: ")
+def palindromo(a):
     # eliminar espacios de la cadena de caracteres
     a = a.replace(" ", "")
     if a == a[::-1]:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
 
 # Separar una cadena de caracteres segun un caracter
 
 
-def separar():
-    a = input("Ingrese una palabra: ")
-    # ingresar un caracter de separador
-    b = input("Ingrese un caracter: ")
-    print(a.split(b))
+def separar(a,b):
+    return a.split(b)
 
 
 # definir una funcion generar_n_caracteres() que tome un entero y un caracter
 # y devuelva el mismo caracter multiplicado por el numero ingresado
 
 
-def generar_n_caracteres():
-    a = int(input("Ingrese un numero: "))
-    b = input("Ingrese un caracter: ")
-    print(b * a)
+def generar_n_caracteres(int a,b):
+    return (b * a)
 
 # Definir un historigrama procedimiento() que tome una lista de numeros enteros e imprima un histograma en la pantalla
 
@@ -106,4 +91,4 @@ def generar_n_caracteres():
 def procedimiento():
     lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     for i in lista:
-        print("*" * i)
+        return ("*" * i)
